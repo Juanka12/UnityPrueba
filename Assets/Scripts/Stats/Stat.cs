@@ -1,0 +1,39 @@
+﻿using System.Collections.Generic;
+using UnityEngine;
+
+[System.Serializable]
+public class Stat
+{
+    [SerializeField]
+   private int baseValue = 0;
+
+   private List<int> modifiers = new List<int>();
+
+   public int getValue(){
+       int finalValue = baseValue;
+       modifiers.ForEach(x => finalValue += x);
+       return finalValue;
+   }
+
+   public void AddModifier(int modifier){
+       if (modifier != 0)
+       {
+           modifiers.Add(modifier);
+       }
+   }
+
+   public void RemoveModifier(int modifier){
+       if (modifier!= 0)
+       {
+           modifiers.Remove(modifier);
+       }
+   }
+
+   public void AddBaseValue(){
+       baseValue ++;
+   }
+
+   public void SetBaseValue(int i){
+       baseValue = i;
+   }
+}

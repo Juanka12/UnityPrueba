@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44d71fba4396e874487796f44d018d1e, type: 3}
+  m_Name: Prueba2
+  m_EditorClassIdentifier: 
+  name: Prueba2
+  fuerza: 2
+  longitud: 5
+  coste: 5
+  spellPrefab: {fileID: 163286, guid: 50daa816369323b42b56093bb108296f, type: 3}
+  sprite: {fileID: 21300000, guid: 5e8c93eb4644bcc4a9c4c33f091d32ba, type: 3}

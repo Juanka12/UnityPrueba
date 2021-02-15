@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9b54a244e205f24088262d2005e549e, type: 3}
+  m_Name: Shop2
+  m_EditorClassIdentifier: 
+  savepath: 
+  database: {fileID: 11400000, guid: 3efc268140ebac0438b1d9f259bd85d2, type: 2}
+  type: 3
+  Container:
+    Slots:
+    - allowed: 
+      item:
+        name: Potion
+        id: 0
+        type: 0
+        buffs: []
+      amount: 2
+    - allowed: 
+      item:
+        name: 
+        id: -1
+        type: 0
+        buffs: []
+      amount: 0
+    - allowed: 
+      item:
+        name: Sword_2
+        id: 7
+        type: 5
+        buffs:
+        - attribute: 3
+          value: 11
+          min: 8
+          max: 25
+      amount: 1
+    - allowed: 
+      item:
+        name: Sword_2
+        id: 7
+        type: 5
+        buffs:
+        - attribute: 3
+          value: 23
+          min: 8
+          max: 25
+      amount: 1
+    - allowed: 
+      item:
+        name: 
+        id: -1
+        type: 0
+        buffs: []
+      amount: 0
+    - allowed: 
+      item:
+        name: 
+        id: -1
+        type: 0
+        buffs: []
+      amount: 0
+    - allowed: 
+      item:
+        name: Sword_2
+        id: 7
+        type: 5
+        buffs:
+        - attribute: 3
+          value: 9
+          min: 8
+          max: 25
+      amount: 1
+    - allowed: 
+      item:
+        name: 
+        id: -1
+        type: 0
+        buffs: []
+      amount: 0
+    - allowed: 
+      item:
+        name: 
+        id: -1
+        type: 0
+        buffs: []
+      amount: 0
+    - allowed: 
+      item:
+        name: 
+        id: -1
+        type: 0
+        buffs: []
+      amount: 0
+    - allowed: 
+      item:
+        name: 
+        id: -1
+        type: 0
+        buffs: []
+      amount: 0
+    - allowed: 
+      item:
+        name: Sword_2
+        id: 7
+        type: 5
+        buffs:
+        - attribute: 3
+          value: 13
+          min: 8
+          max: 25
+      amount: 1

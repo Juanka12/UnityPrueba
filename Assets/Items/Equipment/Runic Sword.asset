@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba38386a4ebba4349bc5b86997ede79a, type: 3}
+  m_Name: Runic Sword
+  m_EditorClassIdentifier: 
+  name: Runic Sword
+  isDefaultItem: 0
+  amount: 1
+  price: 10
+  stackable: 0
+  keyObject: 0
+  type: 5
+  icon: {fileID: 21300000, guid: 06f2136b842e7384dbaa433b4958713c, type: 3}
+  description: 
+  data:
+    name: 
+    id: 6
+    type: 0
+    buffs:
+    - attribute: 3
+      value: 0
+      min: 5
+      max: 20
+    - attribute: 1
+      value: 0
+      min: 5
+      max: 20
+  armorModifier: 0
+  damageModifier: 10
